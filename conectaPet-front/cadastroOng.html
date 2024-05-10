@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastre sua ONG</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+      <header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+              <img src="Figuras/logo_da_ConectaPet.jpg" alt="Logo da ConectaPet" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Início</a>
+                  </li>
+                 
+                 
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">Sobre <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">LOGIN</a>
+              </li>
+
+
+                </ul>
+            </div>
+          </nav>
+      </header>
+    <div class="container">
+      <h1>Cadastre aqui a sua ONG</h1>
+      <form>
+        <div class="form-group">
+            <label for="cnpj">CPF/CNPJ</label>
+            <input type="text" class="form-control" id="icnpj" placeholder="Digite aqui o CNPJ da sua ONG" required>
+          </div>
+
+          <div class="form-group">
+            <label for="nome">Nome da ONG</label>
+            <input type="text" class="form-control" id="inome" placeholder="Digite o nome da ONG que você representa" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="logradouro">Logradouro</label>
+            <input type="text" class="form-control" id="ilogradouro" placeholder="Digite aqui o endereço da ONG" required>
+          </div>
+
+          <div class="form-group">
+            <label for="numero">Número</label>
+            <input type="number" class="form-control" id="inumero" placeholder="Número do endereço" required>
+          </div>
+
+          <div class="form-group">
+            <label for="bairro">Bairro</label>
+            <input type="text" class="form-control" id="ibairro" placeholder="Digite o bairro" required>
+          </div>
+
+          <div class="form-group">
+            <label for="cep">CEP</label>
+            <input type="number" class="form-control" id="icep" placeholder="Digite o CEP" required>
+          </div>
+
+          <div class="form-group">
+            <label for="cidade">Cidade</label>
+            <input type="text" class="form-control" id="icidade" placeholder="Digite a cidade onde vocês estão localizados" required>
+          </div>
+
+          <div class="form-group">
+            <label for="estado">Estado</label>
+            <input type="text" class="form-control" id="iestado" placeholder="Digite o estado onde vocês estão localizados" required>
+          </div>
+
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="number" class="form-control" id="itelefone" placeholder="Insira um telefone para contato" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="iemail" placeholder="Digite o seu email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="login">Login</label>
+            <input type="text" class="form-control" id="ilogin" placeholder="Crie um login de acesso" required>
+          </div>
+
+          <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="senha" class="form-control" id="isenha" placeholder="Crie uma senha" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="missao">Missão</label>
+            <textarea class="form-control" id="imissao" placeholder="Fale um pouco sobre vocês. Escreva a missão da ONG." rows="3"></textarea>
+          </div>
+          
+                    
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+          
+      </form>
+    </div>
+    <footer class="bg-light mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>ConectaPet</h4>
+            <p>Endereço: Rua da Saudade, 1024 - Centro, São Paulo - SP</p>
+            <p>Telefone: (11) 99988-7654</p>
+          </div>
+          <div class="col-md-6">
+            <h4>Navegação</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">Início</a></li>
+              <li><a href="about.html">Sobre</a></li>
+              <li><a href="crud.html">Animais cadastrados</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

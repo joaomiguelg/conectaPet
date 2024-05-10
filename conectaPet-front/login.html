@@ -1,0 +1,107 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ONG de Adoção</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .login-container {
+            max-width: 400px;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        .login-form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        div.pgf{
+            text-align: center;
+
+        }
+
+
+    </style>
+    </head>
+    <body>
+        <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="src/WhatsApp Image 2023-05-03 at 08.29.15.jpeg" alt="Logo da ConectaPet" height="120">
+                    </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Sobre <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+                </nav>
+            </header>
+    <div class="container login-container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center mb-4">Login</h2>
+                <form class="login-form">
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                </div>
+                <a class="btn btn-primary btn-block" href="cadastro.html" role="button">Entrar</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="pgf">
+        <p>
+        <a href="cadastroOng.html">Ainda não é cadastrado? Clique aqui!</a>
+        </p>
+    </div>
+  
+
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JZR6SpejhO6wJnRHCr+3naytcyGpUA+P7rW9JQb5IeVKx2m/RVFaMzed5QpDkah" crossorigin="anonymous"></script>
+            <footer class="bg-light mt-5">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                    <h4>ConectaPet</h4>
+                    <p>Endereço: Rua da Saudade, 1024 - Centro, São Paulo - SP</p>
+                    <p>Telefone: (11) 99988-7654</p>
+                    </div>
+                    <div class="col-md-6">
+                    <h4>Navegação</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                    </ul>
+                    </div>
+                </div>
+                </div>
+            </footer>
+    </body>
+    </html>

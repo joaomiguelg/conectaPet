@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastro de Animais</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+      <header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+              <img src="Figuras/logo_da_ConectaPet.jpg" alt="Logo da ConectaPet" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+                
+                <li class="nav-item active">
+                    <a class="nav-link" href="cadastro.html">Cadastro de animais</a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="cadastroOng.html">Cadastro de ONGs</a>
+              </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="crud.html">Animais cadastrados <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Sobre <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">LOGIN</a>
+            </li>
+
+                </ul>
+            </div>
+          </nav>
+      </header>
+    <div class="container">
+      <h1>Cadastro de Animais</h1>
+      <form>
+        <div class="form-group">
+            <label for="nome">Nome do animal:</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite o nome do animal" required>
+          </div>
+
+          <div class="form-group">
+            <label for="especie">Espécie:</label>
+            <input type="text" class="form-control" id="iespecie" placeholder="Digite a Espécie do animal" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="Raça">Raça:</label>
+            <input type="text" class="form-control" id="Raça" placeholder="Digite a Raça do animal" required>
+          </div>
+
+          <div class="form-group">
+            <label for="Idade">Idade:</label>
+            <input type="number" class="form-control" id="Idade" placeholder="Digite a idade do animal" required>
+          </div>
+
+          <div class="form-group">
+            <label for="historico">Histórico veterinário:</label>
+            <input type="text" class="form-control" id="ihistorico" placeholder="Histórico veterinário do animal" required>
+          </div>
+
+          <div class="form-group">
+            <label for="requisito">Requisito adoção:</label>
+            <input type="text" class="form-control" id="irequisito" placeholder="Digite os requisitos para adoção (se houver)" required>
+          </div>
+
+          <div class="form-group">
+            <label for="temperamento">Temperamento:</label>
+            <input type="text" class="form-control" id="itemper" placeholder="Como é o comportamento do animal?" required>
+          </div>
+
+          <div class="form-group">
+            <label for="local">Localização:</label>
+            <input type="text" class="form-control" id="ilocal" placeholder="Onde se encontra o animal?" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="informacoes">Informações adicionais:</label>
+            <textarea class="form-control" id="informacoes" placeholder="Digite informações adicionais sobre o animal" rows="3"></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="foto">Foto:</label>
+            <input type="file" class="form-control-file" id="foto">
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+          
+      </form>
+    </div>
+    <footer class="bg-light mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>ConectaPet</h4>
+            <p>Endereço: Rua da Saudade, 1024 - Centro, São Paulo - SP</p>
+            <p>Telefone: (11) 99988-7654</p>
+          </div>
+          <div class="col-md-6">
+            <h4>Navegação</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">Início</a></li>
+              <li><a href="about.html">Sobre</a></li>
+              <li><a href="crud.html">Animais cadastrados</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
